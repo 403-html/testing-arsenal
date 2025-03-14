@@ -1,10 +1,10 @@
-# testing-arsenal
+# Testing Arsenal
 
 This repository contains technical guides and patterns for implementing effective automated testing practices, focusing on language/framework-agnostic (_examples will be in TS and Playwright tho_) concepts applicable across various testing frameworks.
 
 ## Table of Contents
 
-- [testing-arsenal](#testing-arsenal)
+- [Testing Arsenal](#testing-arsenal)
   - [Table of Contents](#table-of-contents)
   - [Test Organization and Methodology](#test-organization-and-methodology)
     - [Page Object Model](#page-object-model)
