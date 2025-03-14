@@ -18,7 +18,7 @@ This repository contains technical guides and patterns for implementing effectiv
     - [Centralized Selectors](#centralized-selectors)
     - [Centralized Utilities](#centralized-utilities)
   - [Test Data Generation](#test-data-generation)
-  - [Builder Pattern](#builder-pattern)
+    - [Builder Pattern](#builder-pattern)
   - [Contributing](#contributing)
   - [License](#license)
 
@@ -201,7 +201,7 @@ test('custom matcher', () => {
 
 ## Test Data Generation
 
-## Builder Pattern
+### Builder Pattern
 
 Use the builder pattern to create complex test data objects in a flexible and readable manner. This is particularly useful when dealing with optional or conditional properties. Your existing example is a good implementation. Ensure the builder interacts with your encapsulated API client for creating resources.
 
