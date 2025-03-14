@@ -323,7 +323,7 @@ import { login, canSeeAdminPanel } from './test-helpers';
 test('default user', () => {
   test('should not be able to see admin panel', async ({ page }) => {
     const user = new UserBuilder().withName('John Doe').withEmail('test@example.com').build();
-    await login(user.
+    await login(user);
     expect(await canSeeAdminPanel()).toBe(false);
   });
 });
