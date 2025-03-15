@@ -281,9 +281,7 @@ test('custom matcher', () => {
 
 ### Builder Pattern
 
-Use the builder pattern to create complex test data objects in a flexible and readable manner. This is particularly useful when dealing with optional or conditional properties. Your existing example is a good implementation. Ensure the builder interacts with your encapsulated API client for creating resources.
-
-Example:
+Use the builder pattern to create complex test data objects in a flexible and readable manner. This is particularly useful when dealing with optional or conditional properties. Ensure the builder interacts with your encapsulated API client for creating resources. Here's good example of it, to build user:
 
 ```typescript
 // user-builder.ts
